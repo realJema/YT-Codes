@@ -1,0 +1,115 @@
+<html>
+
+
+<head>
+    <title> Perspective Shift</title>
+
+
+    <style>
+        /* our styles go here  */
+
+        html {
+            background-color: #5138BE;
+            height: 100%;
+        }
+        body {
+            color: #ffffff; 
+            display: flex;
+        }
+
+        .Words {
+            padding-top: 200px; 
+            padding-left: 150px; 
+            font-family: 'Source Sans Pro', Helvetica, Arial, Helvetica, sans-serif; 
+            font-size: 48px; 
+            font-weight: 900; 
+            letter-spacing: -2px; 
+            text-transform: uppercase; 
+            transform: translate3d(0, -50px, 0); 
+        }
+
+        .Words-line {
+            height: 50px; 
+            overflow: hidden; 
+            position: relative;
+        }
+
+        .Words-line:nth-child(odd) {
+            transform: skew(60deg, -30deg) scaleY(0.66667);
+        }
+        .Words-line:nth-child(even) {
+            transform: skew(0deg, -30deg) scaleY(1.33333);
+        }
+
+        .Words-line:nth-child(1) {
+            left: 29px; 
+        }
+        .Words-line:nth-child(2) {
+            left: 58px; 
+        }
+        .Words-line:nth-child(3) {
+            left: 87px; 
+        }
+        .Words-line:nth-child(4) {
+            left: 116px; 
+        }
+        .Words-line:nth-child(5) {
+            left: 145px; 
+        }
+        .Words-line:nth-child(6) {
+            left: 174px; 
+        }
+        .Words-line:nth-child(7) {
+            left: 203px; 
+        }
+
+        p {
+            height: 50px; 
+            line-height: 45px; 
+            padding: 0 10px; 
+            transition: all 0.4s ease-in-out; 
+            transform: translate3d(0, -50px, 0);
+            vertical-align: top; 
+            white-space: nowrap;
+        }
+
+        .Words:hover p {
+            transform: translate3d(0, -150px, 0);
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <ul class="Words">
+
+        <li class="Words-line">
+            <p>&nbsp;</p>
+            <p>CSS Only</p>
+        </li>
+        <li class="Words-line">
+            <p>CSS Only</p>
+            <p>Perspective</p>
+        </li>
+        <li class="Words-line">
+            <p>Perspective</p>
+            <p>Text Effect</p>
+        </li>
+        <li class="Words-line">
+            <p>Text Effect</p>
+            <p>by</p>
+        </li>
+        <li class="Words-line">
+            <p>by</p>
+            <p>@realjema</p>
+        </li>
+        <li class="Words-line">
+            <p>@realjema</p>
+        </li>
+    </ul>
+    
+</body>
+
+
+</html>

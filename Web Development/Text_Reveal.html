@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Text Reveal</title>
+
+    <style>
+        /* our styles go here  */
+        body {
+            margin: 0;
+            padding: 0; 
+            background: #487eb0;
+        }
+
+        .middle {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .text {
+            color: #fff;
+            font-size: 70px;
+            font-family: "montserrat";
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .hidden {
+            max-width: 0;
+            opacity: 0;
+            transition: 0.5s ease-in;
+        }
+        
+        .text:hover .hidden {
+            opacity: 1;
+            max-width: 1em;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="text middle">
+        <span>R</span>
+        <span class="hidden">e</span>
+        <span class="hidden">a</span>
+        <span class="hidden">l</span>
+        <span>J</span>
+        <span class="hidden">e</span>
+        <span class="hidden">m</span>
+        <span class="hidden">a</span>
+    </div>
+</body>
+
+</html>
