@@ -1,0 +1,15 @@
+import turtle
+bob=turtle.Turtle()
+s=turtle.Screen()
+s.bgcolor("black")
+bob.hideturtle()
+for i in range(180):
+  bob.tracer(0)
+  bob.color("Yellow")
+  bob.forward(47)
+  bob.left(103)
+  bob.color("Cyan")
+  bob.circle(80,90)
+  bob.color("deeppink")
+  bob.circle(60,120)
+  bob.tracer(1)
