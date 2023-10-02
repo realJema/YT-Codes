@@ -1,0 +1,9 @@
+Given a list of numbers, write a function to find the second largest number.
+Given a string, write a function to find the longest substring without repeating characters.
+Given a list of words, write a function to find the anagrams.
+Given a binary tree, write a function to find the maximum depth of the tree.
+Given a linked list, write a function to reverse the linked list.
+Given a string, write a function to check if the string is a palindrome.
+Given a string, write a function to find the longest common substring between two strings.
+Given a string, write a function to find the first non-repeating character in the string.
+Given a list of numbers, write a function to find the kth smallest number in the list.
