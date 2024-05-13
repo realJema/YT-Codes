@@ -1,0 +1,8 @@
+test_bad_int (__main__.TestConversion.test_bad_int) ... ok
+test_bad_int_msg (__main__.TestConversion.test_bad_int_msg) ... ok
+test_file_not_found (__main__.TestIO.test_file_not_found) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
